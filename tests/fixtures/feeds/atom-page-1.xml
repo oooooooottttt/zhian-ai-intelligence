@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><id>tag:example.com,2026:feed</id><title>Community feed</title><updated>2026-09-29T12:00:00Z</updated>
+  <link rel="next" href="/feed?page=2"/>
+  <entry><id>tag:example.com,2026:notice-1</id><title>Community alert</title><published>2026-09-28T12:00:00Z</published><updated>2026-09-29T12:00:00Z</updated>
+    <link rel="alternate" href="/notice-1"/><summary type="xhtml"><div xmlns="http://www.w3.org/1999/xhtml">Allowed excerpt.<script>execute()</script></div></summary>
+    <content>FULL CONTENT NOT AN EXCERPT</content>
+  </entry>
+</feed>

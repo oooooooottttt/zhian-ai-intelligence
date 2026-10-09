@@ -1,0 +1,179 @@
+{
+  "sources": [
+    {
+      "id": "nvd-ai",
+      "name": "NVD · AI 组件漏洞",
+      "adapter": "nvd",
+      "category": "vulnerability_database",
+      "endpoint": "https://services.nvd.nist.gov/rest/json/cves/2.0",
+      "allowed_hosts": [
+        "services.nvd.nist.gov"
+      ],
+      "interval_seconds": 3600,
+      "min_request_interval_seconds": 6.1,
+      "enabled": true,
+      "terms_url": "https://nvd.nist.gov/general/faq",
+      "content_scope": "public_advisory",
+      "params": {
+        "policy_status": "reviewed",
+        "keywords": [
+          "ollama",
+          "vllm",
+          "langchain",
+          "litellm",
+          "mlflow",
+          "open webui"
+        ],
+        "lookback_days": 30,
+        "results_per_page": 100,
+        "overlap_seconds": 600,
+        "license": "NVD attribution required; third-party referenced content retains its rights",
+        "license_url": "https://www.nist.gov/open/license"
+      }
+    },
+    {
+      "id": "github-ai",
+      "name": "GitHub Advisory Database · AI 依赖",
+      "adapter": "github_advisories",
+      "category": "vulnerability_database",
+      "endpoint": "https://api.github.com/advisories",
+      "allowed_hosts": [
+        "api.github.com"
+      ],
+      "interval_seconds": 7200,
+      "min_request_interval_seconds": 3.0,
+      "enabled": true,
+      "terms_url": "https://github.com/github/advisory-database/blob/main/LICENSE.md",
+      "content_scope": "public_advisory",
+      "params": {
+        "policy_status": "reviewed",
+        "affects": [
+          "vllm",
+          "ollama",
+          "langchain",
+          "langchain-core",
+          "litellm",
+          "mlflow",
+          "gradio",
+          "transformers",
+          "llama-index-core"
+        ],
+        "lookback_days": 30,
+        "per_page": 50,
+        "overlap_seconds": 600,
+        "license": "CC-BY-4.0",
+        "api_version": "2026-03-10"
+      }
+    },
+    {
+      "id": "vllm-official",
+      "name": "vLLM · 官方安全公告",
+      "adapter": "github_repository",
+      "category": "vendor_advisory",
+      "endpoint": "https://api.github.com/repos/vllm-project/vllm/security-advisories",
+      "allowed_hosts": [
+        "api.github.com"
+      ],
+      "interval_seconds": 7200,
+      "min_request_interval_seconds": 3.0,
+      "enabled": true,
+      "terms_url": "https://docs.github.com/en/rest/security-advisories/repository-advisories",
+      "content_scope": "public_advisory",
+      "params": {
+        "policy_status": "reviewed",
+        "lookback_days": 30,
+        "per_page": 50,
+        "overlap_seconds": 600,
+        "api_version": "2026-03-10",
+        "license": "Repository advisory terms apply; source attribution retained"
+      }
+    },
+    {
+      "id": "arxiv-security",
+      "name": "arXiv · 大模型与智能体安全论文",
+      "adapter": "arxiv",
+      "category": "research_paper",
+      "endpoint": "https://export.arxiv.org/api/query",
+      "allowed_hosts": [
+        "export.arxiv.org",
+        "arxiv.org"
+      ],
+      "interval_seconds": 21600,
+      "min_request_interval_seconds": 3.1,
+      "enabled": true,
+      "terms_url": "https://info.arxiv.org/help/api/tou.html",
+      "content_scope": "metadata_only",
+      "params": {
+        "policy_status": "reviewed",
+        "query": "(all:\"prompt injection\" OR all:\"LLM security\" OR all:\"agent security\" OR all:\"model poisoning\")",
+        "initial_lookback_days": 30,
+        "page_size": 50,
+        "overlap_seconds": 3600,
+        "license": "CC0 descriptive metadata including abstracts; e-print licenses are separate"
+      }
+    },
+    {
+      "id": "owasp-news",
+      "name": "OWASP GenAI · 安全指南动态",
+      "adapter": "rss",
+      "category": "security_community",
+      "endpoint": "https://genai.owasp.org/feed/",
+      "allowed_hosts": [
+        "genai.owasp.org"
+      ],
+      "interval_seconds": 21600,
+      "min_request_interval_seconds": 3.0,
+      "enabled": true,
+      "terms_url": "https://genai.owasp.org/",
+      "content_scope": "metadata_only",
+      "params": {
+        "policy_status": "reviewed",
+        "license": "CC-BY-SA-4.0; preserve attribution and share-alike for licensed derivatives",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "max_pages": 100
+      }
+    },
+    {
+      "id": "nist-drafts",
+      "name": "NIST CSRC · 公开评论技术文件草案",
+      "adapter": "nist_feeds",
+      "category": "standard",
+      "endpoint": "https://csrc.nist.gov/CSRC/media/feeds/pubs/drafts-open-for-comment.xml",
+      "allowed_hosts": [
+        "csrc.nist.gov"
+      ],
+      "interval_seconds": 21600,
+      "min_request_interval_seconds": 3.1,
+      "enabled": true,
+      "terms_url": "https://www.nist.gov/open/license",
+      "content_scope": "metadata_only",
+      "params": {
+        "policy_status": "reviewed",
+        "max_pages": 20,
+        "license": "NIST terms; third-party rights remain separate",
+        "license_url": "https://www.nist.gov/open/license"
+      }
+    },
+    {
+      "id": "nist-cybersecurity-blog",
+      "name": "NIST · Cybersecurity Insights 技术博客",
+      "adapter": "nist_feeds",
+      "category": "security_blog",
+      "endpoint": "https://www.nist.gov/blogs/cybersecurity-insights/rss.xml",
+      "allowed_hosts": [
+        "www.nist.gov"
+      ],
+      "interval_seconds": 21600,
+      "min_request_interval_seconds": 3.1,
+      "enabled": true,
+      "terms_url": "https://www.nist.gov/open/license",
+      "content_scope": "metadata_only",
+      "params": {
+        "policy_status": "reviewed",
+        "max_pages": 20,
+        "license": "NIST terms; third-party rights remain separate",
+        "license_url": "https://www.nist.gov/open/license"
+      }
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "event_ids",
+    "intents",
+    "asset_intent",
+    "relation_depth",
+    "count_assets"
+  ],
+  "properties": {
+    "event_ids": {
+      "type": "array",
+      "maxItems": 8,
+      "uniqueItems": true,
+      "items": {
+        "type": "string",
+        "minLength": 1,
+        "maxLength": 128
+      }
+    },
+    "intents": {
+      "type": "array",
+      "maxItems": 10,
+      "uniqueItems": true,
+      "items": {
+        "type": "string",
+        "enum": [
+          "affected_range",
+          "cvss",
+          "weakness",
+          "condition",
+          "fix",
+          "impact",
+          "related_material",
+          "poc_reference",
+          "risk_pattern",
+          "source_metadata"
+        ]
+      }
+    },
+    "asset_intent": {
+      "type": "boolean"
+    },
+    "count_assets": {
+      "type": "boolean"
+    },
+    "relation_depth": {
+      "type": "integer",
+      "minimum": 0,
+      "maximum": 3
+    }
+  }
+}

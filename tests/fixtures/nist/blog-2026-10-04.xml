@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='utf-8'?>
+<rss xmlns="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0" xml:base="https://www.nist.gov/">
+  <channel>
+    <title>Cybersecurity Insights</title>
+    <link>https://www.nist.gov/</link>
+    <description>Cybersecurity Insights blog posts</description>
+    <language>en</language>
+    <link href="https://www.nist.gov/blogs/cybersecurity-insights/rss.xml" rel="self" type="application/rss+xml" />
+
+    <item>
+  <title>Back to the Future: Why Agentic AI Needs a Strong Identity Foundation</title>
+  <link>https://www.nist.gov/blogs/cybersecurity-insights/back-future-why-agentic-ai-needs-strong-identity-foundation</link>
+  <description>  As AI matures, enterprises and customers are rapidly deploying agents seeking to unlock the next level of automation and productivity. Agentic AI shows potential to handle a multitude of use cases, from buying personal items on Amazon to customer service applications to enterprise security and software development. However, early agentic deployments are repeating a familiar pattern: prioritizing feature development and immediate value over security. This strategy is understandable. Strategic, financial and technical leaders want to demonstrate ROI for their AI investments. Enterprises are
+
+</description>
+  <pubDate>Thu, 27 Aug 2026 12:00:00 +0000</pubDate>
+  <dc:creator>Bill Fisher, Ryan Galluzzo</dc:creator>
+  <guid isPermaLink="true">https://www.nist.gov/node/1918956</guid>
+  </item>
+</channel>
+</rss>

@@ -1,0 +1,13 @@
+{
+  "format": "NVD_CVE", "version": "2.0", "timestamp": "2026-09-30T01:00:00.000",
+  "resultsPerPage": 1, "startIndex": 0, "totalResults": 1,
+  "vulnerabilities": [{"cve": {
+    "id": "CVE-2026-10001", "sourceIdentifier": "researcher@example.org",
+    "published": "2026-09-29T01:00:00.000", "lastModified": "2026-09-30T00:10:00.000", "vulnStatus": "Analyzed",
+    "descriptions": [{"lang": "en", "value": "Fixture: unsafe deserialization in a fictional ML model loader."}],
+    "metrics": {"cvssMetricV31": [{"source": "researcher@example.org", "type": "Primary", "cvssData": {"version": "3.1", "vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H", "baseScore": 9.8, "baseSeverity": "CRITICAL"}}]},
+    "weaknesses": [{"description": [{"lang": "en", "value": "CWE-502"}]}],
+    "configurations": [{"nodes": [{"cpeMatch": [{"vulnerable": true, "criteria": "cpe:2.3:a:fixture:ml_loader:*:*:*:*:*:*:*:*"}]}]}],
+    "references": [{"url": "https://example.org/security/CVE-2026-10001"}, {"url": "http://127.0.0.1/private"}, {"url": "https://user:password@example.org/private"}, {"url": "https://example.org/?api_key=secret"}]
+  }}]
+}

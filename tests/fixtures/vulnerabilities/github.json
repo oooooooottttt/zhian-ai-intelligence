@@ -1,0 +1,18 @@
+[
+  {
+    "ghsa_id": "GHSA-aaaa-bbbb-cccc", "cve_id": "CVE-2026-10001",
+    "url": "https://api.github.com/advisories/GHSA-aaaa-bbbb-cccc",
+    "html_url": "https://github.com/advisories/GHSA-aaaa-bbbb-cccc",
+    "summary": "Fixture ML loader advisory", "description": "Fixture: unsafe model deserialization; public security excerpt.",
+    "type": "reviewed", "severity": "critical", "state": "published",
+    "published_at": "2026-09-29T01:00:00Z", "updated_at": "2026-09-30T00:10:00Z", "withdrawn_at": null,
+    "identifiers": [{"type": "CVE", "value": "CVE-2026-10001"}, {"type": "GHSA", "value": "GHSA-aaaa-bbbb-cccc"}, {"type": "OTHER", "value": "arbitrary-id"}],
+    "vulnerabilities": [{"package": {"ecosystem": "pip", "name": "fixture-ml-loader"}, "vulnerable_version_range": "< 2.0", "first_patched_version": "2.0"}],
+    "cwes": [{"cwe_id": "CWE-502", "name": "Deserialization of Untrusted Data"}],
+    "cvss": {"vector_string": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H", "score": 9.8},
+    "references": ["https://example.org/security/CVE-2026-10001", "http://169.254.169.254/latest", "https://user:password@example.org/private"],
+    "author": {"login": "a-person", "avatar_url": "https://avatars.githubusercontent.com/u/1", "email": "personal@example.org"},
+    "credits": [{"user": {"login": "a-person", "email": "personal@example.org"}, "type": "reporter"}],
+    "private_fork": {"private": true, "full_name": "private/secret"}
+  }
+]

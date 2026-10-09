@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom">
+  <id>http://arxiv.org/api/example-query</id><updated>2026-09-30T00:00:00Z</updated>
+  <opensearch:totalResults>5</opensearch:totalResults><opensearch:startIndex>0</opensearch:startIndex><opensearch:itemsPerPage>2</opensearch:itemsPerPage>
+  <entry><id>http://arxiv.org/abs/2601.01001v2</id><title>Adversarial AI revision</title>
+    <published>2026-01-02T00:00:00Z</published><updated>2026-09-29T22:00:00Z</updated>
+    <summary>CC0 descriptive metadata abstract about model security.</summary><author><name>Example Researcher</name><email>omit@example.com</email></author>
+    <category term="cs.CR"/><arxiv:primary_category term="cs.CR"/><arxiv:doi>10.1234/example</arxiv:doi>
+    <link href="http://arxiv.org/pdf/2601.01001v2" title="pdf" type="application/pdf"/>
+  </entry>
+  <entry><id>http://arxiv.org/abs/2609.01002v1</id><title>Prompt injection monitoring</title>
+    <published>2026-09-29T21:00:00Z</published><updated>2026-09-29T21:00:00Z</updated>
+    <summary>Metadata abstract two.</summary><author><name>Second Researcher</name></author><category term="cs.CR"/>
+  </entry>
+</feed>

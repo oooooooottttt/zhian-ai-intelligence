@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='utf-8'?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title type="text">NIST Draft Publications Open for Comment</title>
+  <subtitle type="text">Many of NIST's cybersecurity and privacy publications are posted as drafts for public comment. Comment periods are still open for the following publications. Visit the links for downloads, related content, and instructions for submitting comments. Your thoughtful reviews and comments are greatly appreciated and help us to improve our standards and guidance.</subtitle>
+  <id>https://csrc.nist.gov/CSRC/media/feeds/pubs/drafts-open-for-comment.xml</id>
+  <updated>2026-10-04T09:01:00Z</updated>
+  <logo>https://csrc.nist.gov/CSRC/Media/images/CSRC-white-134-38.png</logo>
+  <link rel="alternate" href="https://csrc.nist.gov/publications/drafts-open-for-comment" />
+  <entry>
+    <id>https://csrc.nist.gov/pubs/sp/1353/ipd</id>
+    <title type="text">SP 1353, NIST Cybersecurity Framework 2.0: Quick-Start Guide for Using Artificial Intelligence (AI) for CSF Analysis and ReportingInitial Public Draft</title>
+    <summary type="text">&lt;blockquote&gt;
+&lt;p&gt;Per the Sept. 29, 2026, &lt;a href="https://www.whitehouse.gov/presidential-actions/2026/09/inaugurating-the-era-of-super-intelligence/"&gt;Executive Order on Inaugurating the Era of Super Intelligence&lt;/a&gt;,&amp;nbsp;NIST is working to update its communications to incorporate the term &amp;ldquo;super intelligence&amp;rdquo; as directed.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;This new quick-start guide illustrates practical and actionable ways AI could be used for analyzing, planning, implementing, and monitoring an organization&amp;rsquo;s progress toward achieving CSF 2.0 outcomes.&amp;nbsp;&lt;o&gt;&lt;/o&gt;&lt;/p&gt;
+&lt;p&gt;The document&amp;rsquo;s purpose is to:&lt;o&gt;&lt;/o&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;b&gt;Provide structured AI prompts&lt;/b&gt; &lt;b&gt;as tools&lt;/b&gt; for practitioners to begin creating CSF-related artifacts in support of achieving CSF outcomes&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;Identify current state of practice&lt;/b&gt; for AI prompt engineering in CSF implementation and analysis&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;While the focus was not to write about AI best practices or to provide cybersecurity guidelines thereof, there are places where specific precautions are denoted with the /!\ notation.&amp;nbsp; &lt;o&gt;&lt;/o&gt;&lt;/p&gt;
+&lt;p&gt;This guide includes three notional use cases, examples of prompts for structuring natural language inputs to produce&amp;nbsp;specified CSF 2.0 outputs from a generative AI model, simulated organizational files for a fictitious company, tips for getting started, and more. &lt;o&gt;&lt;/o&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;b&gt;USE CASE 1&lt;/b&gt; illustrates the use of an AI-assisted review to evaluate organization cybersecurity policy, strategy, and &lt;b&gt;risk governance in alignment with the CSF 2.0 outcomes.&lt;/b&gt;&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;USE CASE 2&amp;nbsp;&lt;/b&gt;illustrates how to &lt;b&gt;produce a draft Organization Current State Profile &amp;ndash;&amp;nbsp;&lt;/b&gt;mapping artifacts and personnel interview notes to CSF 2.0 outcomes, documenting any assumptions, and recording observed gaps in the interviews and evidence.&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;USE CASE 3&amp;nbsp;&lt;/b&gt;illustrates how to draw upon internal and industry references to &lt;b&gt;create a draft CSF target state profile &lt;/b&gt;describing desired outcomes to meet mission objectives, stakeholder expectations, address the risk landscape, and fulfill requirements.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Use case examples illustrate a&amp;nbsp;possible approach and are not prescriptive assessment or assurance methodologies.&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&lt;o&gt;&lt;/o&gt;&lt;em&gt;Note: The README file in the Supplemental Materials List contains the ZIP file checksums.&amp;nbsp;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;Submit Your Comments: &lt;o&gt;&lt;/o&gt;&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;The comment period is open through October 15, 2026, at 11:59 PM. Email comments to: &lt;a href="mailto:csf@nist.gov"&gt;csf@nist.gov&lt;/a&gt;.&amp;nbsp;&lt;o&gt;&lt;/o&gt;&lt;/p&gt;
+&lt;p&gt;Note: NIST is only seeking comments on the quick-start guide and supplied AI prompts. NIST is not seeking comment on the fictional organizational documents. Those are for illustrative purposes only. &lt;o&gt;&lt;/o&gt;&lt;/p&gt;
+&lt;p&gt;This publication is the most recent within a portfolio of CSF 2.0&amp;nbsp;quick-start&amp;nbsp;guides released by the CSF 2.0 project team since February 26, 2024. These resources&amp;nbsp;offer tailored pathways for different audiences to engage with the CSF 2.0, making the Framework easier to implement. View all&amp;nbsp;&lt;a href="https://www.nist.gov/cyberframework/navigating-nists-csf-20-quick-start-guides"&gt;CSF 2.0 quick-start guides&lt;/a&gt;.&lt;b&gt;&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;&lt;o&gt;&amp;nbsp;&lt;/o&gt;&lt;/p&gt;</summary>
+    <published>2026-08-19T00:00:00-04:00</published>
+    <updated>2026-08-19T00:00:00-04:00</updated>
+    <link href="https://csrc.nist.gov/pubs/sp/1353/ipd" />
+    <content type="text">Comments Due 10/15/2026</content>
+  </entry>
+  </feed>

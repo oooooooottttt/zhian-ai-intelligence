@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">
+  <id>http://arxiv.org/api/example-query</id><updated>2026-09-30T00:00:00Z</updated>
+  <opensearch:totalResults>5</opensearch:totalResults><opensearch:startIndex>3</opensearch:startIndex><opensearch:itemsPerPage>2</opensearch:itemsPerPage>
+  <entry><id>http://arxiv.org/abs/2609.01004v1</id><title>Model monitoring</title>
+    <published>2026-09-27T00:00:00Z</published><updated>2026-09-27T00:00:00Z</updated><summary>Metadata abstract four.</summary>
+  </entry>
+  <entry><id>http://arxiv.org/abs/2609.01005v1</id><title>Outside overlapping window</title>
+    <published>2026-09-20T00:00:00Z</published><updated>2026-09-20T00:00:00Z</updated><summary>Old metadata.</summary>
+  </entry>
+</feed>

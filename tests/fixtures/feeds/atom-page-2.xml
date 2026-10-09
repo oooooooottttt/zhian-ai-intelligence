@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:at="http://purl.org/atompub/tombstones/1.0"><id>tag:example.com,2026:feed</id><title>Community feed</title><updated>2026-09-29T13:00:00Z</updated>
+  <at:deleted-entry ref="tag:example.com,2026:notice-1" when="2026-09-29T13:00:00Z"/>
+  <entry><id>tag:example.com,2026:notice-2</id><title>Second notice</title><published>2026-09-28T12:00:00Z</published><updated>2026-09-29T13:00:00Z</updated>
+    <link rel="alternate" href="https://example.com/notice-2"/><summary>Small excerpt.</summary>
+  </entry>
+</feed>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom">
+  <id>http://arxiv.org/api/example-query</id><updated>2026-09-30T00:00:00Z</updated>
+  <opensearch:totalResults>5</opensearch:totalResults><opensearch:startIndex>1</opensearch:startIndex><opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <entry><id>http://arxiv.org/abs/2609.01002v1</id><title>Prompt injection monitoring</title>
+    <published>2026-09-29T21:00:00Z</published><updated>2026-09-29T21:00:00Z</updated>
+    <summary>Metadata abstract two.</summary><author><name>Second Researcher</name></author><category term="cs.CR"/>
+  </entry>
+  <entry><id>http://arxiv.org/abs/2609.01003v3</id><title>AI security withdrawn revision</title>
+    <published>2026-09-01T00:00:00Z</published><updated>2026-09-28T20:00:00Z</updated>
+    <summary>Metadata abstract three.</summary><arxiv:comment>This paper has been withdrawn by the authors.</arxiv:comment>
+  </entry>
+  <entry><id>http://arxiv.org/abs/2609.01004v1</id><title>Model monitoring</title>
+    <published>2026-09-27T00:00:00Z</published><updated>2026-09-27T00:00:00Z</updated><summary>Metadata abstract four.</summary>
+  </entry>
+</feed>

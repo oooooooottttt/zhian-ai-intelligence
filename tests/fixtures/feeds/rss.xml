@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel><title>Example security feed</title><link>https://example.com/</link><lastBuildDate>Tue, 29 Sep 2026 23:00:00 GMT</lastBuildDate>
+    <item><guid isPermaLink="false">advisory-1</guid><title><![CDATA[<b>AI security update</b>]]></title>
+      <link>https://EXAMPLE.com/article?utm_source=feed&amp;id=1#section</link><pubDate>Tue, 29 Sep 2026 20:00:00 +0800</pubDate>
+      <description><![CDATA[<p>A feed excerpt <script>alert('secret')</script><style>hidden</style> with <b>plain text</b>.</p>]]></description>
+      <content:encoded><![CDATA[FULL ARTICLE MUST NOT BE RETAINED]]></content:encoded><author>private@example.com</author>
+    </item>
+    <item><guid>http://user:password@example.com/secret</guid><title>Safe article with unsafe GUID</title>
+      <link>https://example.com/safe</link><pubDate>2026-09-29T12:00:00Z</pubDate>
+      <description><![CDATA[Excerpt <iframe src="http://127.0.0.1">private</iframe> outside.]]></description>
+    </item>
+    <item><guid>unsafe-1</guid><title>Private URL</title><link>http://127.0.0.1/admin</link></item>
+    <item><guid>unsafe-2</guid><title>Credential URL</title><link>https://example.com/article?access_token=SECRET</link></item>
+  </channel>
+</rss>
